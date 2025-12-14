@@ -1,3 +1,12 @@
+"""
+CLI functions for tracking and managing list of tasks.
+
+This module provides functions that allow for adding new tasks with deadlines,
+deleting tasks, and reading those tasks from the list. The list is in order of 
+latest to most recently added tasks in descending order. The functrion utilizes
+the typer and datetime modules.
+"""
+
 import typer
 import datetime
 from datetime import date
